@@ -3,11 +3,11 @@ body,html{ min-width: 1200px; overflow-x: hidden; }
 *{ margin:0; padding:0;}
 body,p,h1,h2,h3,h4,h5,table,ul,li,form,input{ margin:0; padding:0; color:#000; font-family:"Microsoft yahei"; }
 
-body,p{ font-size:14px; border:none; color: #000;}
+body,p{ font-size:16px; border:none; color: #000;}
 a{ font-size:14px; color:#000; text-decoration:none; border:none; padding:0;}
 table{border-collapse:collapse;}
 img{ border:0; margin:0; padding:0;}
-ul,li{ list-style:none; border:0; margin:0; padding:0;}
+/* ul,li{ list-style:none; border:0; margin:0; padding:0;} */
 dl,dt,dd{ margin:0; padding:0; -webkit-margin-start:0;}
 h1,h2,h3,h4,h5{ font-weight:normal; font-size:12px; display:block;}
 strong,b{ font-weight:normal;}
@@ -293,7 +293,8 @@ padding: 20px 0 10px 0;}
 
 .about-tit h2{ color: #000; text-align: center; font-size: 30px; font-weight: bold;}
 .about-tit h3{ color: #666; text-align: center; font-size: 30px;  font-family: times new roman,times,serif; text-transform: uppercase;}
-.about-sec2 li{ float: left; margin: 0 0 20px 30px;  overflow: hidden; width: 380px;}
+
+.about-sec2 li{ padding-left: 40px; line-height: 32px; float: left; margin: 0 0 20px 30px;  overflow: hidden; width: 350px;background: url("../img/xunzhang.png")  no-repeat ; background-size : 30  30 ;}
 .about-sec2 li  figure,.about-sec2 li figure img{ width: 100%; transition: all 0.6s;}
 .about-sec2 li:hover figure img{ transform: scale(1.1);}
 .about-sec2{ background: #F5F5F5; padding: 20px 0;}
@@ -323,13 +324,13 @@ padding: 20px 0 10px 0;}
 .devalp .coure_more{ display:block; line-height:60px; background:#f5f5f5; text-align:center; width:100%; font-size:16px;
  cursor:pointer; margin-top:40px;}
  
-.about-sec4{ padding: 50px 0 30px 0;} 
+.about-sec4{ padding: 50px 0 30px 0;background: #F5F5F5;} 
 .about-sec4  .bd{ padding-top: 40px;}
 .about-sec4 .cont{ position: relative;}
 .about-sec4  .tempWrap{ width: 1240px !important; overflow: hidden;}
-.about-sec4 li{ width: 385px; overflow: hidden; margin: 0 41px 0 0;}
+.about-sec4 li{overflow: hidden;  border-bottom: 1px #ccc solid; padding: 20px 0;}
 .about-sec4 li figure img, .about-sec4 li figure { display: block; width: 100%; transition: all 0.6s; overflow: hidden;}
-.about-sec4 li p{ background: #fff; height: 60px; line-height: 60px; text-align: center; font-size: 16px; margin-top: 10px; color: #000; transition: all 0.6s;}
+.about-sec4 li p{ height: 60px; line-height: 60px; text-align: center; font-size: 16px; margin-top: 10px; color: #000; transition: all 0.6s;}
 .about-sec4  span{ display: block; position: absolute; top: 50%; font-size: 50px; font-family: "宋体"}
 .about-sec4 .prev{ left: -50px}
 .about-sec4 .next{ right: -50px;}
@@ -485,4 +486,4 @@ a {color: orange;}
 	text-align: justify;
 }
 
-.navbar li {margin: 0px;}
+.navbar li {margin: 0px; list-style: none;}

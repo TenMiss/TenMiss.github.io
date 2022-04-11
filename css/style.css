@@ -349,9 +349,10 @@ padding: 20px 0 10px 0;}
 .fuwupage-cont { padding: 5px;}
 .fuwupage-cont .div{ background: #F5F5F5; padding: 30px;}
 .fuwupage-cont .l-cont{ width: 40%; padding:0 5%;}
-.fuwupage-cont .l-cont h3{ color: #333; font-weight: bold; font-size: 20px; text-align: right; padding:10% 0 3% 0; }
+.fuwupage-cont .l-cont h3{ color: #333; font-weight: bold; font-size: 20px; text-align: right; padding:0 0 0 0; }
 .fuwupage-cont .l-cont b{ display: block; background: #222; width: 60px; height: 2px; float: right; margin:3% 0 3% 0;}
-.fuwupage-cont .l-cont p{ font-size: 14px;  line-height: 32px; color: #666;}
+.fuwupage-cont .l-cont p{ font-size: 14px;  line-height: 20px; color: #666; text-align:justify;}
+.new_honor{ font-size: 14px;  line-height: 20px; color: #666; text-align:justify;}
 .fuwupage-cont .r-cont{ width: 50%;  position: relative; overflow: hidden; height: 350px;}
 .fuwupage-cont .r-mask{ position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: rgba(0,0,0,0.3); transform: scale(1.1); opacity: 0;
 transition: all 0.36s;}

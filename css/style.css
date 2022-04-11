@@ -367,7 +367,8 @@ font-size: 20px; font-weight: bold; }
 
 
 .detailpage{ padding: 20px 0;background: #F5F5F5;  }
-.detailpage .w1240{ background: #fff; padding:30px 50px;}
+.detailpage .w1240{ background: #fff; padding:30px 60px;}
+.detailpage li { text-align: justify;}
 .stace h1{ font-size:24px; font-weight:bold; line-height:36px; overflow:hidden; padding:25px 0;}
 .stace strong{ display:block; overflow:hidden; padding:20px 0; overflow:hidden; margin-bottom:20px; border-bottom:1px #e0e0e0 solid;}
 .stace strong span{ display:inline-block; color:#999; padding-right:30px;}

@@ -346,7 +346,7 @@ padding: 20px 0 10px 0;}
 
 
 /*服务页面*/
-.fuwupage-cont { padding: 5px;}
+.fuwupage-cont { padding: 5px; display: none;}
 .fuwupage-cont .div{ background: #F5F5F5; padding: 30px;}
 .fuwupage-cont .l-cont{ width: 40%; padding:0 5%;}
 .fuwupage-cont .l-cont h3{ color: #333; font-weight: bold; font-size: 20px; text-align: right; padding:0 0 0 0; }
@@ -363,6 +363,7 @@ font-size: 20px; font-weight: bold; }
 .fuwupage-cont .fan-div .l-cont  h3{text-align: left; }
 .fuwupage-cont .fan-div b{ float:none;  }
 .fuwupage-cont .fan-div .more-btn{ float: left;} 
+.show_tab {display: block;}
 
 
 
@@ -496,4 +497,8 @@ a {color: orange;}
 .supervisor-paper .paper-list li a {font-size: 18px;}
 .detail-left li {line-height: 30px; font-family: 'Times New Roman', Times, serif; font-size: 18px;}
 .detail-left li a { font-size: 18px;}
-.project .abobox .about-tit {margin: 10px 0;}
+.project .abobox .about-tit {margin: 10px 0;text-align: center;}
+.direction_tab {height: 30px;line-height: 30px;margin: 10px 10px;}
+.direction_tab li {box-shadow: 0 1px 1px #ccc;border-radius: 5px ;cursor: pointer;transition: background-color 0.5s, color 0.5s;margin-right:10px ; list-style: none; float: left;border: 2px #3caaf9 solid; width: 80px;text-align: center;}
+.direction_selected_tab {background-color: #3caaf9; color: #fff;}
+.direction_tab li:hover { background-color: #3caaf9; color: #fff;}

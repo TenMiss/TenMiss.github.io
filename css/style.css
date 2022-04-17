@@ -502,3 +502,53 @@ a {color: orange;}
 .direction_tab li {box-shadow: 0 1px 1px #ccc;border-radius: 5px ;cursor: pointer;transition: background-color 0.5s, color 0.5s;margin-right:10px ; list-style: none; float: left;border: 2px #3caaf9 solid; width: 80px;text-align: center;}
 .direction_selected_tab {background-color: #3caaf9; color: #fff;}
 .direction_tab li:hover { background-color: #3caaf9; color: #fff;}
+
+.detail-item h1{
+	text-align: center;
+	background: url("../img/tit-bg1.png") no-repeat center;
+	color: #d0ad7a;
+}
+
+.detail-hornor li {
+	padding: 10px;
+	width: 25%;
+	height: 500px;
+	float: left;
+	list-style: none;
+	margin: 10px 20px;
+	transition: all 0.5s;
+	border: 1px #d0ad7a solid;	
+	border-radius: 10px;
+}
+.detail-item li h2{
+	text-align: center;
+	font-size: 16px;
+	font-family: 宋体;
+	font-weight: bold;
+}
+
+.detail-hornor li:hover{
+	box-shadow: 2px 2px 2px #d0ad7a;
+}
+
+.detail-revolution {
+	height: 430px;
+}
+
+.detail-revolution li{
+	list-style: none;
+}
+
+.detail-revolution li{
+	margin: 10px;
+	width: 270px;
+	float: left;
+}
+
+.detail-revolution li img{
+	height: 248px;
+}
+
+video {
+	width: 100%;
+}

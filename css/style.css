@@ -477,7 +477,7 @@ font-size: 20px; font-weight: bold; }
 	margin-top: 7px;
 }
 a:hover {color: red;}
-a {color: orange;}
+a {color: orange; font-size: 20px;}
 
 .rcln_b h1 { font-size: 20px; color: orange;}
 
@@ -515,7 +515,7 @@ a {color: orange;}
 	height: 500px;
 	float: left;
 	list-style: none;
-	margin: 10px 20px;
+	margin: 10px 30px;
 	transition: all 0.5s;
 	border: 1px #d0ad7a solid;	
 	border-radius: 10px;
@@ -551,4 +551,80 @@ a {color: orange;}
 
 video {
 	width: 100%;
+	margin: 20px 0px 0px 0px;
+}
+
+.detail-Cur-PPF {
+	height: 430px;
+}
+
+.detail-Cur-PPF li{
+	list-style: none;
+}
+
+.detail-Cur-PPF li{
+	list-style: none;
+	margin: 5px;
+	width: 400px;
+	float: left;
+}
+
+.detail-Cur-PPF li img{
+	list-style: none;
+
+	height: 290px;
+	width: 390px;
+
+}
+
+.detail-SLM{
+	height: 430px;
+}
+
+.detail-SLMF li{
+	list-style: none;
+}
+
+.detail-SLM li{
+	list-style: none;
+	margin: 10px 100px 10px 100px;
+	width: 400px;
+	float: left;
+}
+
+.detail-SLM li img{
+	list-style: none;
+
+	height: 390px;
+	width: 400px;
+
+}
+
+.detail-car{
+	height: 600px;
+}
+
+.detail-car li{
+	list-style: none;
+}
+
+.detail-car li{
+	
+	width: 80%;
+	margin:0 auto;
+}
+
+.detail-car li img{
+	list-style: none;
+
+	height: 200px;
+	width: 75%;
+	margin:0 auto;
+
+}
+
+
+.cont img{
+
+	margin: 10px 100px 10px 100px;
 }

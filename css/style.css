@@ -495,7 +495,7 @@ a {color: orange; font-size: 20px;}
 .supervisor-paper .about-tit {margin: 10px 0;}
 .supervisor-paper .paper-list li {line-height: 30px; font-family: 'Times New Roman', Times, serif; font-size: 18px;}
 .supervisor-paper .paper-list li a {font-size: 18px;}
-.detail-left li {line-height: 30px; font-family: 'Times New Roman', Times, serif; font-size: 18px;}
+.detail-left li {line-height: 30px; font-family: 'Times New Roman', Times, serif; font-size: 18px;margin: 0 25px ;}
 .detail-left li a { font-size: 18px;}
 .project .abobox .about-tit {margin: 10px 0;text-align: center;}
 .direction_tab {height: 30px;line-height: 30px;margin: 10px 10px;}
@@ -628,3 +628,57 @@ video {
 
 	margin: 10px 100px 10px 100px;
 }
+
+
+.fire-hornor li{
+	padding: 10px;
+	width: 50%;
+	height: 800px;
+	float: center;
+	list-style: none;
+	margin:0 auto;
+	transition: all 0.5s;
+	border: 1px #d0ad7a solid;	
+	border-radius: 10px;
+	
+}
+
+.fire-hornor h1{
+	text-align: center;
+}
+
+.detail-meter li {
+	padding: 10px;
+	width: 48%;
+	height: 400px;
+	float: left;
+	list-style: none;
+	margin:0 auto;
+	transition: all 0.5s;
+	border: 1px #d0ad7a solid;	
+	border-radius: 10px;
+
+}
+
+
+.detail-meter-r li {
+	padding: 25px 0;
+	width: 80%;
+	height: 400px;
+	float: left;
+	list-style: none;
+	margin:20 auto;
+
+
+}
+
+
+.detail-meter-r h1 {
+	padding: 25px 0;
+	text-align: center;
+	margin: 0;
+
+	
+
+}
+
